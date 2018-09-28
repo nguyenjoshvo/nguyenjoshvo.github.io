@@ -46,3 +46,6 @@ ul li{
     margin-bottom:10px;
 }
 
+ul:hover li a{
+    color: #eee
+}
