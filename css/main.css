@@ -12,7 +12,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     font-size: 1.4em;
-    color: #333;
 }
 a {
     text-decoration: none;
@@ -46,3 +45,6 @@ ul.posts li {
 ul li{
     margin-bottom:10px;
 }
+
+
+nav {color: #00FF00;}
