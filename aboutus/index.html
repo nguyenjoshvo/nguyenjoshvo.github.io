@@ -5,15 +5,21 @@ title: About Us
 
 		<div class="about">
 			<h1>About Us</h1>
-      <h2>What is MiOncoCirc? </h3>
+      <h2>What is MiOncoCirc? </h2>
       <p style="font-size:90%;text-align:justify"><b>MiOncoCirc</b> is the first extensive clinical, cancer-centric resource of circRNAs. Most importantly, our database has been largely constructed from clinical cancer samples (2,000+) across a plethora of disease sites, while other resources have characterized circRNAs from cancer cell lines. The transcriptional processes, and resulting circRNA formation, that occur in a dish versus a native tumor microenvironment will undoubtedly be vastly different, making MiOncoCirc a better representation of the true circRNA profile associated with cancer. Furthermore, <b>MiOncoCirc</b> represents a rich resource containing circRNAs from primary tumors, metastases, and very rare cancer types, novel features compared to the other databases. Researchers who are interested can also query mutations and copy-number since MiOncoCirc samples are collected from previously published genomic papers (Mody et al., 2015, Robinson et al., 2015, and Robinson et al., 2017).</p> 
-      <h2>Our Bioinformatics Pipeline</a> </h3> 
-      <img src="../bioinf.jpg" alt="cohort" style="width:800px;height:450px;" class="center">
+      <h2>Our Bioinformatics Pipeline</a> </h2> 
+      <img src="../bioinf.jpg" alt="cohort" style="width:700px;height:400px;" class="center">
       
       <p style="font-size:90%;text-align:justify">The transcriptome for each sample was profiled by paired-end, strand specific capture RNA-seq with moderate depth (~50M-60M). To detect backspliced (circular) reads from RNA-seq libraries, we used the pipeline <font color="blue"><a href="https://github.com/YangLab/CIRCexplorer">CIRCexplorer (Zhang et al., 2014)</a></font>. CIRCexplorer has been shown to achieve high sensitivity and specificity among current circRNA bioinformatics tools (Hansen at al., 2015). In addition, we employed the pipeline <a href="https://github.com/mcieslik-mctp/codac">CODAC</a> to discover a new class of circRNAs, read-through circRNAs (rt-circRNA). CODAC was initially developed to call structural rearrangements in paired-end RNA-seq but has been recently extended to the annotation of circRNAs, especially those that involve more than one gene.</p> 
       <h2>Browsing the circRNAs</a></h3>
       <p style="font-size:90%;text-align:justify">Using our <a href="http://ec2-52-91-79-148.compute-1.amazonaws.com:3838/circRNA/">"Query Data" page</a>, the users can browse all circRNAs of any chosen gene. Furthermore, by clicking on the circular isoform on the displayed table, the users can see its abundance across different cancer lineages.</p> 
       <img src="../screenshot.png" alt="cohort" style="width:800px;height:600px;" class="center">
+      <h2>Reference</a></h2>
+      <p style="font-size:90%;text-align:justify">Hansen, T., Jensen, T., Clausen, B., Bramsen, J., Finsen, B., Damgaard, C., and Kjems, J. (2013). Natural RNA circles function as efficient microRNA sponges. Nature 495, 384-388.<br />
+      Mody, R., Wu, Y., Lonigro, R., Cao, X., Roychowdhury, S., Vats, P., Frank, K., Prensner, J., Asangani, I., and Palanisamy, N. et al. (2015). Integrative Clinical Sequencing in the Management of Refractory or Relapsed Cancer in Youth. JAMA 314, 913.<br />
+      Robinson, D., Van Allen, E., Wu, Y., Schultz, N., Lonigro, R., Mosquera, J., Montgomery, B., Taplin, M., Pritchard, C., and Attard, G. et al. (2015). Integrative Clinical Genomics of Advanced Prostate Cancer. Cell 161, 1215-1228.<br />
+      Robinson, D., Wu, Y., Lonigro, R., Vats, P., Cobain, E., Everett, J., Cao, X., Rabban, E., Kumar-Sinha, C., and Raymond, V. et al. (2017). Integrative clinical genomics of metastatic cancer. Nature 548, 297-303.<br />
+      Zhang, X., Wang, H., Zhang, Y., Lu, X., Chen, L., and Yang, L. (2014). Complementary Sequence-Mediated Exon Circularization. Cell 159, 134-147.</p>
 
 
 		</div>
